@@ -1,0 +1,128 @@
+.container {
+    background-color: rgb(200 40 90 / 0.5);
+    display:inline-block;
+    height:10rem;
+    margin-left: 235px;
+}
+
+.alert1 {
+   height: 10rem; 
+   float: left;
+}
+.alert2 {
+    height: 10rem; 
+    float: right;
+ }
+
+#text {
+    padding: 50px;
+    display:inline-block;
+}
+
+#title {
+font-size: 30px;
+margin: 0 auto;
+color: white;
+text-align: center;
+}
+
+#subtitle {
+font-size: 24px;
+margin: 0 auto;
+color: white;   
+text-align: center;
+}
+
+body {
+    background-image: url(space_image.webp);
+    background-size: cover;
+    background-color: black;
+}
+
+#main {
+display:flex;
+display:grid;
+background-color: black;
+width: 50rem;
+height: 30rem;
+margin-left: 280px;
+border-style: solid;
+border-color:red;
+border-width:2px;
+}
+
+#fleet {
+    height: 5rem;
+    width: 50rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.aliens {
+    width: 5rem;
+    height: 5rem;
+}
+
+#assembly {
+    display:flex;
+    align-self: flex-end;
+    width: 50rem;
+    height: 5rem; 
+    justify-content: center;
+}
+#uss {
+    width: 5rem;
+    height: 5rem;  
+    
+}
+
+#startbar {
+    display:flex;
+    height: 5rem;
+    width: 50rem;
+    align-self: center;
+    justify-content: center;
+   
+}
+
+#start {
+    
+    background-color: rgb(251, 47, 47);
+    color: black;
+    width: 10rem;
+    height: 5rem;
+    font-size: larger;
+}
+
+#bar {
+background-color: grey;
+display:grid;
+display:flex;
+width: 50rem;
+height: 5rem;
+margin-left: 280px;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: space-evenly;
+border-style: solid;
+border-color:black;
+border-width:2px;
+
+}
+
+.buttons {
+    display:flex;
+    display:grid;
+    width: 6rem;
+    height: 3rem; 
+    justify-content: space-evenly;
+    background-color: rgb(202, 243, 188);
+    align-items: center;
+}
+
+#reset {
+    background-color: rgb(128, 22, 22);
+}
+
+#status {
+    background-color: rgb(176, 184, 26);
+}
