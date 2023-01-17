@@ -18,6 +18,7 @@ class USAssembly {
             enemy.fleet -= 1;
             console.log("%cAn enemy ship has been destroyed!", "border: 2px solid green;")
             if (enemy.fleet <= 0 && player.hull > 0) {
+                retreat.style.display = 'none'
                 return console.log("%cAll the enemy ships have been destroyed! We have successfully defeated the alien threat!", "background-color:green; border: 3px solid black; color:white;")
             }
         }
@@ -95,8 +96,9 @@ function battle() {
     // attack.addEventListener('click', () => { 
     
         player.shoot()
+        if (enemy.fleet !== 0) {
         enemy.damage()
-        
+        }
     // })
     }
     

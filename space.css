@@ -36,6 +36,7 @@ text-align: center;
 body {
     background-image: url(space_image.webp);
     background-size: cover;
+    background-repeat: no-repeat;
     background-color: black;
 }
 
