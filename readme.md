@@ -1,6 +1,6 @@
 Welcome to my Space Invader Command Line Game!
 
-Purpose: To display several javascript, and css skills I have learned. 
+Purpose: To display several JavaScript, and CSS skills I have learned. 
 
     Skills displayed:
         OOP 
@@ -26,9 +26,9 @@ How to play:
         Start Button- Clicking will trigger the command line interface to begin
         Status Button- Clicking will display details about the players current progress in the game,
                         such as current shield point remaining, and the total number of enemy ships remaining.
-        Attack Button- Clicking will trigger the player to attempt to attack the enemy. Successfuly 
+        Attack Button- Clicking will trigger the player to attempt to attack the enemy. Successfully  
                         attacking will deal 5 damage points. If the enemy returns fire, a range of 
                         damage between 3 and 6 points.
-        Retreat Button- Clicking will trigger the player to run awau from the enemy, if an escape if possible 
+        Retreat Button- Clicking will trigger the player to run away from the enemy, if an escape if possible 
                         after destroying at least one enemy ship.
         Reset Button- Clicking will trigger the entire game to refresh to the Start Button option.
