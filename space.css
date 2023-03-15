@@ -1,8 +1,13 @@
 .container {
     background-color: rgb(200 40 90 / 0.5);
-    display:inline-block;
+    display:flex;
     height:10rem;
     margin-left: 235px;
+    position: relative;
+    block-size: fit-content;
+    max-height: 15rem;
+    overflow: scroll;
+    
 }
 
 .alert1 {
@@ -34,7 +39,7 @@ text-align: center;
 }
 
 body {
-    background-image: url(space_image.webp);
+    background-image: url(/images/space_image.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
