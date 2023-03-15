@@ -1,5 +1,5 @@
 Welcome to my Space Invader Command Line Game!
-
+________
 Purpose: To display several JavaScript, and CSS skills I have learned. 
 
     Skills displayed:
@@ -13,15 +13,15 @@ Purpose: To display several JavaScript, and CSS skills I have learned.
         Booleans
         Conditionals
         Webpage Design 
-        
-
+________
 How to play:
+
     Fork and clone this repository 
     Install Live Server Extension
     Run live server
     Inspect webpage 
     Navigate to Console
-
+________
     Features:
         Start Button- Clicking will trigger the command line interface to begin
         Status Button- Clicking will display details about the players current progress in the game,
